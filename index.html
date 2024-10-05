@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">       
     <!-- --------------- tailwind css link -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- --------------- tailwind script cdn link -->
@@ -20,6 +22,7 @@
           extend: {
             fontFamily: {
               mulish: ["Mulish", "sans-serif"],
+              inter: "Inter"
             },
           },
         },
@@ -149,9 +152,9 @@
     <!-- ---------------- main -->
     <main class="w-full">
         <!-- ---------------- home section -->
-        <section class="w-full min-h-[50vh] pb-7 lg:min-h-[75vh]">
+        <section class="w-full min-h-[50vh] md:pb-7 xl:min-h-[75vh] xl:flex xl:items-center xl:justify-center 2xl:min-h-[80vh]">
             <div class="container mx-auto px-4">
-                <div class="w-full min-h-[250px] bg-[#12132D] bg-[url('./assets/bgbanner.png')] bg-center bg-no-repeat bg-cover rounded-2xl p-7 flex flex-col items-center gap-y-9 sm:p-[45px] lg:flex-row lg:justify-between lg:gap-x-[40px] lg:rounded-[32px] lg:p-[75px] xl:p-[100px] 2xl:p-[120px]">
+                <div class="w-full min-h-[280px] bg-[#12132D] bg-[url('./assets/bgbanner.png')] bg-center bg-no-repeat bg-cover rounded-2xl p-7 flex flex-col items-center gap-y-9 sm:p-[45px] lg:flex-row lg:justify-between lg:gap-x-[40px] lg:rounded-[32px] lg:p-[75px] xl:p-[100px] 2xl:p-[120px]">
                     <div class="w-full">
                         <h1 class="font-mulish text-4xl leading-[52px] text-white font-black mb-3 sm:text-5xl lg:text-[58px] lg:leading-[64px] lg:mb-5 xl:text-[64px] xl:leading-[86px]">Welcome to the <span class="bg-gradient-to-r from-[#797DFC] to-[#797dfc9c] bg-clip-text text-transparent sm:leading-[64px]">ReTro</span> Forum</h1>
                         <p class="font-mulish text-base leading-[30px] text-[#FFFFFFCC] lg:text-xl lg:leading-[36px]">Share your favorite opinion and win and wp forum coffee mug!</p>
@@ -185,6 +188,104 @@
                 </div>
             </div>
         </section>
+        <!-- ---------------- home section -->
+
+        <!-- ---------------- let's discuss section -->
+        <section class="w-full min-h-[50vh] pb-8">
+            <div class="container mx-auto px-4">
+                <!-- -------------- title -->
+                <div class="w-full pt-8 flex items-center justify-center flex-col mb-7">
+                    <h1 class="font-mulish text-[25px] font-black mb-4 lg:leading-[50px] md:text-[27px] lg:text-[40px]">Let's Discuss</h1>
+                    <div class="max-w-[690px] text-center">
+                        <p class="font-inter text-base leading-7 font-normal text-[#12132D99]">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.</p>
+                    </div>
+                </div>
+                <!-- -------------- main content -->
+                <div class="w-full flex items-center justify-center flex-col gap-y-6 mt-[35px] sm:mt-[40px] md:gap-y-9 lg:flex-row-reverse lg:gap-x-6 lg:items-start">
+                    <!-- ------------- details card box -->
+                    <div class="w-full max-w-[380px] bg-[#12132D0D] rounded-2xl p-5 sm:max-w-[375px] md:max-w-[420px] xl:max-w-[480px] lg:rounded-3xl">
+                        <!-- ------------- heading title -->
+                        <div class="w-full flex items-center justify-between border-b-2 border-dashed pb-4">
+                            <h1 class="font-mulish text-xl leading-[23px] font-black text-[#12132D]">Title</h1>
+                            <div class="flex items-center justify-center gap-x-2">
+                                <div class="w-4 h-4">
+                                    <img src="https://img.icons8.com/?size=100&id=cL95UuXTO0nU&format=png&color=000000" alt="check mark icon">
+                                </div>
+                                <p class="font-inter text-base leading-[19px] font-normal text-[#12132D99]">Mark as read (0)</p>
+                            </div>
+                        </div>
+                        <!-- --------------- details card container -->
+                        <div class="w-full mt-[17px]">
+                            <div class="w-full bg-white py-[15px] px-[16px] rounded-lg flex items-center justify-between">
+                                <h1 class="font-mulish text-base leading-[26px] font-bold text-[#12132D]">10 Kids Unaware of Their Halloween Costume</h1>
+                                <div class="flex items-center justify-center gap-x-[8px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-[#12132D99]">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <span class="font-inter text-base leading-[19px] font-normal text-[#12132D99]">1568</span>                                      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------- post card box -->
+                    <div class="w-full">
+                        <!-- -------------- post card -->
+                        <div class="w-full min-h-[50px] bg-[#F3F3F5] rounded-2xl p-5 flex flex-col justify-center md:flex-row lg:p-[40px] lg:rounded-3xl lg:gap-x-1">
+                            <!-- ------------- user profile -->
+                            <div class="w-full md:max-w-[100px]">
+                                <div class="w-[72px] h-[72px] bg-white rounded-lg relative">
+                                    <!-- -------------- api load img -->
+                                    <div class="w-[16px] h-[16px] bg-green-600 border-2 border-white rounded-full absolute top-[-4px] right-[-4px] z-10"></div>
+                                </div>
+                            </div>
+                            <!-- ------------- user post -->
+                            <div class="w-full">
+                                <div class="w-full border-b-2 border-[#12132D40] border-dashed pb-5">
+                                    <div class="flex items-center gap-x-5 mt-3 mb-2 md:mt-0">
+                                        <p class="font-inter text-sm leading-[17px] font-semibold text-[#12132DCC]"># Music</p>
+                                        <p class="font-inter text-sm leading-[17px] font-semibold text-[#12132DCC]">Author : Rakibul Rahman</p>
+                                    </div>
+                                    <div class="w-full">
+                                        <h1 class="font-mulish text-lg leading-[25px] font-black text-[#12132D] mb-3 md:text-[20px] lg:mb-4 lg:text-xl">10 Kids Unaware of Their Halloween Costume.</h1>    
+                                        <p class="font-inter text-base leading-[26px] font-normal text-[#12132D99]">It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative</p>
+                                    </div>
+                                </div>
+                                <div class="w-full mt-6 flex items-center justify-between">
+                                    <div class="w-full flex items-center gap-x-6">
+                                        <div class="flex items-center gap-x-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-[#12132D99]">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                            </svg>
+                                            <span class="font-inter text-sm leading-[19px] font-normal text-[#12132D99] md:text-base">560</span>
+                                        </div>
+                                        <div class="flex items-center gap-x-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-[#12132D99]">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                            </svg>                                      
+                                            <span class="font-inter text-sm leading-[19px] font-normal text-[#12132D99] md:text-base">1568</span>
+                                        </div>
+                                        <div class="flex items-center gap-x-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-[#12132D99]">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                            </svg>                                                                            
+                                            <span class="font-inter text-sm leading-[19px] font-normal text-[#12132D99] md:text-base">5 min</span>
+                                        </div>
+                                    </div>
+                                    <div class="w-7 h-7 rounded-full flex items-center justify-center">
+                                        <img src="./assets/vector.png" alt="">                                                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------- let's discuss section -->
+
+        
     </main>
     <!-- ---------------- main -->
 
