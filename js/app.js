@@ -101,7 +101,7 @@ const displayAllLatestPost = (data) => {
         const {name, designation, posted_date} = author;
 
         const cardDiv = document.createElement('div');
-        cardDiv.classList.add("w-full", "max-w-[400px]", "min-h-[495px]", "sm:w-[400px]", "border", "border-[#12132D26]", "rounded-2xl", "p-4", "md:w-full", "lg:rounded-[32px]", "xl:w-full", "xl:p-6", "2xl:min-h-[540px]");
+        cardDiv.classList.add("w-[400px]", "max-w-full", "min-h-[495px]", "sm:w-[400px]", "border", "border-[#12132D26]", "rounded-2xl", "p-4", "md:w-full", "lg:rounded-[32px]", "xl:w-full", "xl:p-6", "2xl:min-h-[540px]");
         cardDiv.innerHTML = `
             <div class="w-full h-[190px] rounded-[10px] bg-[#12132D0D] overflow-hidden lg:rounded-[20px] 2xl:h-[210px]">
                 <div class="w-full h-full overflow-hidden">
